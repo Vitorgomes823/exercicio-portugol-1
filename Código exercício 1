@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero1
+
+		escreva("Digite o primeiro número : ")
+		leia(numero1)
+		limpa()
+		se (numero1 > 0 ) 
+		{
+			escreva("O número ",numero1," é um número positivo ")	
+		}
+		se (numero1 < 0 ) 
+		{
+			escreva("O número ",numero1," é um número negativo ")	
+		}
+		se (numero1 == 0 ) 
+		{
+			escreva("O número que voce digitou é ",numero1)	
+		}
+	}
+}
